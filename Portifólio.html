@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>: Portfólio pessoal (CV online)</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<!--Corpo do site -->
+<body>
+  <!--Navegacao do site -->
+  <header>
+    <nav>
+      <ul class="cabecalho">
+        <li><a href="#sobre">Inicio</a></li>
+        <li><a href="#hobbies">hobbies</a></li>
+        <li><a href="#formacoes">formações</a></li>
+        <li><a href="#portifolio">portfolio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h2>Bem-vindo(a)</h2>
+  <h3 id="sobre">Sobre Mim</h3>
+  <p id="sobre">Prazer colega me chamo Vitor Pierre tenho 21 anos, e na pandemia acabei me apaixonando pelo desenvolvimento em geral, seja Front ou Back, experiencias de trabalho em mercado como serviços gerais e vendedor em uma loja de agronomia os dois totalizando 2 anos e 3 meses.<br> Softskills de atentimento e vendas junto de trabalho em grupo com objetivo na resolução de problemas</p>
+  <h3 id="hobbies">hobbies</h3>
+  <p id="hobbies">Meus hobbies:quando tenho tempo gosto de jogar, assistir algum documentário e se atualizar na area tech e fazer projetinhos simples para praticar</p>
+
+  <h3 id="formacoes">Formações</h3>
+  
+    <a  class="python"   href="https://www.credly.com/badges/898c9cc6-cad9-4b8d-9f27-f2db16b0fa27/linked_in_profile">Python Essentials 1</a><br>
+    
+    <a class="athon"  href="https://www.credly.com/badges/0c767f76-34db-4e63-90e5-bfd220ad74be/linked_in_profile">Networking Academy Learn-A-Thon 2023
+      Issued by Cisco</a><br>
+    
+    <a  class="java" href="https://ada.tech/certificado?code=d5103b71-ed35-83e6-2173-6a7e71c1eb60">Ada Tech Java introdutorio</a>
+    <p class="eelb">Ensino Medio - EELB - Escola Estadual Luiz Bastos(Canapi-AL)</p>
+    
+    <h3 id="portifolio">Portifolio</h3>
+    <p class="ballebot">Landing Page Balle Bot</p>
+    <img src="Ballebot.png">
+
+    
+    <h3 id="contato">Contato</h3>
+    <form class="form" action="contato" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+            <option value="geral">Geral</option>
+            <option value="suporte">Suporte</option>
+            <option value="feedback">Feedback</option>
+        </select>
+        <br>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea>
+        <br>
+        
+        <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
